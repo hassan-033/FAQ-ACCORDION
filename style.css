@@ -98,3 +98,39 @@ button {
     color: #666;
     font-size: small;
 }
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: hsl(275, 100%, 97%);
+    }
+
+    header {
+        background-image: url(assets/images/background-pattern-mobile.svg);
+        height: 200px;
+        /* background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex; */
+    }
+
+    #faq-div {
+        max-width: 300px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .faq-questions {
+        font-size: 1em;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 14px;
+        margin: 2px 1px;
+    }
+
+    .hidden, .visible {
+        padding: 0 10px;
+        font-size: .8em;
+    }
+}
